@@ -1,0 +1,34 @@
+API (url/link(www.backend.share.com/api/))
+
+cms(content management system)
+backend developer -> api
+createBlog -> www.example.com/api/createBlog
+getBlogs -> www.example.com/api/getBlogs
+getBlog -> www.example.com/api/getBlog/1
+deleteblog -> www.example.com/api/deleteBlog/1
+updateBlog -> www.example.com/api/updateBlog/1
+
+
+restful api 
+createBlog/getBlogs -> www.example.com/api/blogs
+getBlog/delete/update -> www.example.com/api/blogs/1
+
+static language (C,java)
+
+int a = 10;
+ a= "Manish"
+char a = "A"
+int arr[] = {};
+
+
+dynamic language (python,javascript)
+ a= 10 ;
+a = "Manish"
+ a= [1,2]
+typescript
+a = 10;
+a = "Manish"
+
+
+
+
