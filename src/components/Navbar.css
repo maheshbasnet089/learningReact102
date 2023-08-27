@@ -1,0 +1,29 @@
+/* Style the navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Center the navbar items horizontally */
+.navbar-list {
+    text-align: center;
+}
+
+/* Style the navbar items */
+.navbar-item {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Style the navbar links */
+.navbar-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Change link color on hover */
+.navbar-item a:hover {
+    color: #ff9900;
+}

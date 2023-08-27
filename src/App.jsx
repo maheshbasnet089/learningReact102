@@ -1,23 +1,29 @@
 
 
 import './App.css'
-import './test.css'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+
 
 function App() {
-  var number = 10 
-
 
   return (
+    <BrowserRouter>
    
-     <div>
-      <h1>{1+1+10}</h1>
-      <h3>{number}</h3>
-      <h1>bye world</h1>
-     <p>Hello world</p>
-     <div>
-      <h2 style={{color:'yellow'}}>hello</h2>
-     </div>
-     </div>
+   <Routes>
+
+    <Route path='/' element={<Home />} />
+    <Route path="/about" element={<About />} />
+
+    <Route path="/contact" element={<Contact />} />
+
+   </Routes>
+   
+   </BrowserRouter>
+
+
    
   )
 }
